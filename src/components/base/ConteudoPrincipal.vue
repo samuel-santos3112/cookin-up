@@ -12,10 +12,14 @@
         <img src="../../assets/images/icons/lista-vazia.svg" alt="Ícone de pesquisa"> Sua lista está vazia, selecione ingredientes para iniciar.
       </p>
     </section>
+
+<SelecionarIngredientes />
   </main>
 </template>
 
 <script setup lang="ts">
+  import SelecionarIngredientes from '@/components/base/SelecionarIngredientes.vue';
+
   const ingredientes = ['Alho', 'Manteiga', 'Orégano']
 
 </script>
@@ -83,5 +87,6 @@
     gap: 4rem;
   }
 }
+
 
 </style>
